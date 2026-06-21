@@ -340,6 +340,7 @@ def child_sort_menu():
 4. Theo lợi nhuận giảm dần
 5. Thoát sắp xếp
  """)
+    
 def show_menu():
     print(""" 
 ================ MENU ================
@@ -400,7 +401,6 @@ def main():
             
         else:
             print("Lựa chọn không hợp lệ! Hãy thử lại")
-
 
 if __name__ == "__main__":
     main()
